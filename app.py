@@ -75,11 +75,11 @@ canvas.pack()
 # button to take screenshots
 # calls hide_window to remove program window from the frame first
 capture = Button(canvas, font = ("Arial 12 bold"), text = "Screenshot", width = 10, bg = "lightblue", command = hide_window)
-capture.place(relx = 0.4, rely = 0.3)
+capture.place(relx = 0.35, rely = 0.3)
 
 # button to read text from the image
 scan = Button(canvas, font = ("Arial 12 bold"), text = "Scan Image", width = 10, bg = "lightblue", command = getText)
-scan.place(relx = 0.4, rely = 0.5)
+scan.place(relx = 0.35, rely = 0.5)
 
 mainloop()
 
